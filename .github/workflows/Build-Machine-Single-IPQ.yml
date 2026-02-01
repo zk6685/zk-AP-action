@@ -27,11 +27,11 @@ on:
        # - 'lenovo_newifi-d1'
        # - 'd-team_newifi-d2'
        # - 'link_nn6000-v2-lite'
-        - 'link_nn6000-v2'
+       # - 'link_nn6000-v2'
         - 'link_nn6000-v2-12m'
        # - 'link_nn6000-v2-12m-lite'
        # - 'aliyun_ap8220'
-        - 'jdcloud_re-ss-01'
+       # - 'jdcloud_re-ss-01'
         - 'jdcloud_re-ss-01-12m'
 
       SFE_BUILDIN:
@@ -130,9 +130,9 @@ jobs:
     #    - ipq: link_nn6000-v2-lite
     #    - ramips: d-team_newifi-d2
     #    - ipq: aliyun_ap8220
-        - ipq: jdcloud_re-ss-01
+    #    - ipq: jdcloud_re-ss-01
         - ipq: jdcloud_re-ss-01-12m
-        - ipq: link_nn6000-v2
+    #    - ipq: link_nn6000-v2
         - ipq: link_nn6000-v2-12m
     #    - ipq: link_nn6000-v2-12m-lite
 
